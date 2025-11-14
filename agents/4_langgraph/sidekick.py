@@ -63,10 +63,9 @@ class Sidekick:
 
     This is the success criteria:
     {state["success_criteria"]}
-    You should reply either with a question for the user about this assignment, or with your final response.
-    If you have a question for the user, you need to reply by clearly stating your question. An example might be:
-
-    Question: please clarify whether you want a summary or a detailed answer
+    You should reply immediately with 3 clarifying questions for the user. You must do this step before proceeding with the task.
+    After you have received answers to your questions, you can continue using tools to complete the task.
+    Once you've met the success criteria, you are done and should reply with your final response.
 
     If you've finished, reply with the final answer, and don't ask a question; simply reply with the answer.
     """
